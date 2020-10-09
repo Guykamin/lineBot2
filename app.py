@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     a=os.environ['Authorization']
     try:
-        f = open("student.csv", "r")
+ #       f = open("student.csv", "r")
 #        for line in f.readlines():
 #            print(line)
  #           a = line.split(",")
